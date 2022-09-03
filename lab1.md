@@ -12,7 +12,7 @@
    classDiagram
    AntistressToy "*" <-- "1" Production 
    Order "1" --> "*" AntistressToy
-   Role "1" --> "*" User
+   Role "1" <--> "*" User
    User "1" --> "*" Client
    User "1" --> "*" Deliveryman
    StressType "*" <--> "*" AntistressToy 
